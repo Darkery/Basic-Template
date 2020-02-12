@@ -1,0 +1,19 @@
+<mvc:View
+	controllerName="sap.ui.demo.basicTemplate.controller.Home"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		id="page"
+		title="{i18n>title}">
+		<content>
+			<core:HTML id="HTMLContent"/>
+<!--			<bar>-->
+<!--				<div>-->
+<!--					<canvas id="myChart" width="2" height="1"></canvas>-->
+<!--				</div>-->
+<!--			</bar>-->
+		</content>
+	</Page>
+</mvc:View>
