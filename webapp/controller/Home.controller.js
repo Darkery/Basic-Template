@@ -9,7 +9,7 @@ sap.ui.define([
 		formatter: formatter,
 
 		onInit: function () {
-			this.byId("HTMLContent").setContent('<canvas id="myChart" width="2" height="1"></canvas>')
+			this.byId("HTMLContent").setContent("<div id='chartDiv'><canvas id='myChart' width='100%' height='50%'></canvas></div>");
 		},
 
 		onAfterRendering: function () {
@@ -50,6 +50,5 @@ sap.ui.define([
 			});
 			myChart.update();
 		}
-
 	});
 });
